@@ -1,0 +1,303 @@
+@media (max-width: 1499.98px) {
+
+.section_mg_top{
+	margin-top: 70px;
+}
+.service_item {
+    padding: 35px;
+}
+.service_item svg{
+	width: 45px;
+}
+.service_item svg.ecom-bag{
+	width: 38px;
+}
+.service_item:hover svg{
+	margin-left: 6px;
+}
+}
+
+/*// X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+
+ }
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+.hero_content h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.fs-20 {
+    font-size: 16px;
+}
+.fs-16 {
+    font-size: 15px;
+}
+.thechnology_ico img {
+    margin-right: 35px;
+    width: 50px;
+    filter: grayscale(0);
+}
+.service_item p {
+    font-size: 15px;
+}
+.service_item h3 {
+    font-size: 22px;
+    margin: 12px 0px;
+}
+.services_row , .portfolio_row {
+    margin-top: 15px;
+}
+.section_heading {
+    font-size: 40px;
+}
+.sub_heading {
+    font-size: 14px;
+}
+.service_item {
+    padding: 25px;
+}
+.section_pd_top {
+    padding-top: 50px;
+}
+.section_pd_bottom{
+	padding-bottom: 50px;
+}
+.section_mg_top{
+	margin-top: 50px;
+}
+ }
+
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+.hero_content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.link_btn a {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.hero_wrapper{
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+.hero_wrapper .hero_img {
+    height: 78.6vh;
+}
+.nav-container {
+	position: fixed;
+	display: none;
+	overflow-y: auto;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	width: 280px;
+	height: 100%;
+	background: #1a1a1a;
+	box-shadow: -1px 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.nav-tabs {
+	padding-left: 10px;
+	flex-direction: column;
+	margin-top: 80px;
+	width: 100%;
+	border: 0!important;
+}
+.nav-tabs .nav-tab.theme_btn {
+    padding: inherit;
+    margin-top: 22px;
+}
+
+.nav-tab:not(:last-child) {
+	padding: 20px 25px;
+	margin: 0;
+}
+
+.nav-tab:last-child {
+	padding: 15px 25px;
+}
+
+.menu-btn {
+	position: relative;
+	display: block;
+	margin: 0;
+	cursor: pointer;
+	z-index: 2;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.menu-btn .menu {
+display: block;
+width: 30px;
+height: 2px;
+border-radius: 2px;
+background: var(--whitecolor);
+}
+
+.menu-btn .menu:nth-child(2) {
+	margin-top: 4px;
+	opacity: 1;
+}
+
+.menu-btn .menu:nth-child(3) {
+	margin-top: 4px;
+}
+
+#menuToggle:checked + .menu-btn .menu {
+	transition: transform 0.2s ease;
+}
+
+#menuToggle:checked + .menu-btn .menu:nth-child(1) {
+	transform: translate3d(0, 6px, 0) rotate(45deg);
+}
+
+#menuToggle:checked + .menu-btn .menu:nth-child(2) {
+	transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+	opacity: 0;
+}
+
+#menuToggle:checked + .menu-btn .menu:nth-child(3) {
+	transform: translate3d(0, -6px, 0) rotate(-45deg);
+}
+
+#menuToggle:checked ~ .nav-container {
+	z-index: 1;
+	display: flex;
+	animation: menu-slide-left 0.3s ease;
+}
+@keyframes menu-slide-left {
+	0% {
+		transform: translateX(200px);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+.service_item {
+    padding: 30px;
+}
+.happy_client h2 {
+    font-size: 50px;
+}
+	.sub_heading {
+    font-size: 12px;
+    padding: 10px 25px 9px 25px;
+}
+.bullet_points {
+    padding: 40px 60px;
+    background: var(--darkcolor);
+}
+}
+
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+.hero_content{
+	text-align: center;
+}
+.hero_wrapper .hero_img {
+    height: 500px;
+    margin-top: 20px;
+    width: 100%;
+    object-fit: contain;
+}
+.thechnology_ico{
+	margin-top: 25px;
+	align-items: center!important;
+}
+.thechnology_ico img {
+    margin-right: 50px;
+    width: 50px;
+    filter: grayscale(0);
+}
+.section_pd_top {
+    padding-top: 40px;
+}
+.section_pd_bottom{
+	padding-bottom: 40px;
+}
+.section_mg_top{
+	margin-top: 40px;
+}
+.services_row {
+    margin-top: 0px;
+}
+.bullet_points {
+    padding: 25px 51px;
+}
+}
+
+
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.hero_content h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.thechnology_ico img {
+    margin-right: 30px;
+    width: 30px;
+}
+.hero_wrapper .hero_img {
+    height: 420px;
+}
+.fs-20 {
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 15px;
+}
+.section_heading {
+    font-size: 30px;
+}
+.section_pd_top {
+    padding-top: 35px;
+}
+.section_pd_bottom{
+	padding-bottom: 35px;
+}
+.section_mg_top{
+	margin-top: 35px;
+}
+.section_mg_top{
+	margin-top: 35px;
+}
+.services_row , .portfolio_row{
+    margin-top: 0px;
+}
+.service_item h3 {
+    font-size: 22px;
+}
+.service_item {
+    padding: 25px;
+}
+.number_link {
+    font-size: 18px;
+}
+}
+
+@media (max-width: 414.98px) {
+.service_item h3, .portfolio_item h3 {
+    font-size: 20px;
+    margin: 14px 0px;
+}
+.portfolio_item h3{
+	text-align: center;
+}
+.portfolio_item h3 svg {
+    width: 30px;
+}
+.link_btn a {
+    padding: 13px 12px;
+}
+.link_btn a:hover svg {
+    width: 14px;
+    margin-top: -1px;
+}
+}
