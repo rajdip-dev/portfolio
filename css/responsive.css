@@ -67,6 +67,15 @@
 .section_mg_top{
 	margin-top: 50px;
 }
+.hero_content{
+	text-align: center;
+}
+.hero_wrapper .hero_img {
+    height: 500px;
+    margin-top: 20px;
+    width: 100%;
+    object-fit: contain;
+}
  }
 
 
@@ -198,15 +207,8 @@ background: var(--whitecolor);
 
 /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) { 
-.hero_content{
-	text-align: center;
-}
-.hero_wrapper .hero_img {
-    height: 500px;
-    margin-top: 20px;
-    width: 100%;
-    object-fit: contain;
-}
+
+
 .thechnology_ico{
 	margin-top: 25px;
 	align-items: center!important;
