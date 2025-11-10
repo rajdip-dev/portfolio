@@ -68,7 +68,7 @@
 	margin-top: 50px;
 }
 .our_portfolio{
-	margin-top: 80px !important;
+	padding-top: 80px !important;
 }
  }
 
@@ -303,4 +303,5 @@ background: var(--whitecolor);
     width: 14px;
     margin-top: -1px;
 }
+
 }
