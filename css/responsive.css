@@ -76,6 +76,9 @@
     width: 100%;
     object-fit: contain;
 }
+.our_portfolio{
+	padding-top: 80px !important;
+}
  }
 
 
@@ -302,4 +305,5 @@ background: var(--whitecolor);
     width: 14px;
     margin-top: -1px;
 }
+
 }
